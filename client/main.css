@@ -1,0 +1,85 @@
+
+
+.page-header {
+    background-color: #74ffd9;
+    border-radius: 20px;
+}
+.page-header h1 {
+    text-align: center; padding: 10px;
+}
+.panel-heading {
+	background-color: #81defd;
+}
+.search_panel {
+    /*background: red;*/
+    /*width: 500px; 
+    margin-top: 30px;*/
+    /*padding: 10px;*/
+}
+.1st_div {
+    float: left;
+}
+.2nd_div {
+    float: right;
+    /*width: 500px;*/
+    max-width: 300px;
+}
+/*.panel-group {
+    width: 100%;
+}*/
+/*.right_1st {
+    max-width: 300px;
+}*/
+/*.patient_table_div {
+    width: 300px; 
+    margin-top: 50px;
+}
+ {
+    width: 250%;
+}
+.test_table_div {
+    width: 300px; 
+    margin-top: 100px;
+}
+*/
+table thead tr th {
+    background: #88eeeb;
+}
+#test_table_operation {
+	text-align: center;
+}
+.footer {
+    color: red;
+    background: orange;
+}
+
+
+/* ///////// COLLECT MODAL \\\\\\\\\\\\\\\*/
+#colllect_modal_text {
+    /*text-align: center;*/
+}
+#collect_status {
+    color: red;
+}
+
+
+/*#cssmenu ul li:hover > a {
+  background: #2580a2 url("images/hover.png") bottom center no-repeat;
+  color: #ffffff;
+  text-decoration: none;
+}*/
+.uib-dropdown-menu {
+    margin-top:35px;
+    background: #131515;
+}
+.uib-dropdown-menu :hover {
+    background: black;
+
+}
+.uib-dropdown-menu li a {
+    color: white;
+}
+.uib-dropdown-menu li:hover > a {
+    background: #222222;
+  color: #ffffff;
+}

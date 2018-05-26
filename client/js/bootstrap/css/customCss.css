@@ -1,0 +1,213 @@
+.header-center{
+    text-align:center;
+}
+.background
+{
+background-image: url("/resource/body-bg.jpg");
+}
+.padding{
+	padding:9px;
+}
+
+.bed-category{
+	  margin-bottom: 0px !important;
+}
+
+#doctor-wise-patient-table th{
+	text-align: center;
+	vertical-align: middle;
+	padding: 2px;
+  	border-bottom: 1px;
+}
+
+////////////////////// Animation Css /////////////////////
+.animate-hide {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  line-height: 500px;
+  opacity: 1;
+  padding: 10px;
+  border: 1px solid black;
+  background: white;
+}
+
+.animate-hide.ng-hide {
+  line-height: 0;
+  opacity: 0;
+  padding: 0 10px;
+}
+
+.check-element {
+  padding: 10px;
+  border: 1px solid black;
+  background: white;
+}
+
+.animate-hide.ng-hide-add, .animate-hide.ng-hide-remove {
+  transition: 0.5s linear all;
+}
+
+.dtext{
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.page-container{
+  margin-top: 40px;
+}
+
+.page-container-page-header{
+  margin-top: 15px;
+}
+
+.jumbotron h2{
+  margin-top: 0px !important;
+}
+
+/************************ Sile Side floting Menu **************************/
+.flotingMenu{
+    position : fixed;
+    top: 200px;
+    left: 0px;
+}
+.flotingMenuBtn{
+    position : fixed;
+    top: 15px;
+    left: 0px;
+    z-index: 1000;
+}
+.arrow-left{
+    position: absolute;
+    right: 0px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.arrow-parent{
+    position: relative;
+}
+
+.animate {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  position: absolute;
+  left: -600px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px grey;
+  z-index: 1001;
+  background: white;
+}
+
+.animate.rightMove {
+  left: 0;
+}
+.animate.leftMove {
+  left: -600px;
+}
+
+a.btn{
+    white-space: normal !important;
+}
+
+/*****************************security**************************/
+
+
+#userList tr{
+cursor:pointer;
+}
+
+#userList tr:hover{
+background-color: #DDD;
+}
+
+#userListObj tr{
+cursor:pointer;
+}
+
+#userListObj tr:hover{
+
+background-color: #DDD;
+}
+
+.selected-row {
+  background: linear-gradient(to bottom, rgba(184,198,223,1) 0%,rgba(109,136,183,1) 100%);
+  font-weight:bold;
+}
+
+.user-list-scroll{
+  overflow:scroll;
+  height:600px;
+}
+
+.newSmall
+{
+border-radius:0 !important;
+height:17px !important;
+top:6%;
+}
+
+
+/*****************************Another CSS For Fixed Header*********************/
+
+.table {
+    table-layout:fixed;
+}
+
+.div-table-content {
+  height:450px;
+  overflow-y:auto;
+  overflow-x:auto;
+}
+.td1{
+  /*  max-width: 200px;*/
+    word-wrap: break-word;
+}
+
+.alignment{
+  text-align: left;
+}
+
+/***********************Odd And Even Row Color******************/
+
+ #userList>tbody>tr:nth-child(odd)>td, 
+#userList>tbody>tr:nth-child(odd)>th {
+  background: linear-gradient(to bottom, rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%); 
+ }
+
+#userList>tbody>tr:nth-child(even)>td, 
+#userList>tbody>tr:nth-child(even)>th {
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); 
+ }
+
+
+/*#objectTable>tbody>tr:nth-child(odd)>td, 
+#objectTable>tbody>tr:nth-child(odd)>th {
+  background: rgb(172, 206, 224); 
+ }
+*/
+/*#objectTable>tbody>tr:nth-child(even)>td, 
+#objectTable>tbody>tr:nth-child(even)>th {
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); 
+ }*/
+
+.tableHeight{
+  height:320px;
+}
+/***************************Header CSS***********************/
+
+.header{
+  color:white;
+  background: linear-gradient(to bottom, rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%);
+}

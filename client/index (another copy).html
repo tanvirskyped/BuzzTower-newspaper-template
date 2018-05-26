@@ -1,0 +1,126 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Medicare Web</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="resource/Ruby Pro Icon.ico">
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap/css/customCss.css">
+    <link rel="stylesheet" href="js/bootstrap/css/angular-ui-switch.min.css" />
+    <script src="js/bootstrap/js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap/js/bootstrap.js"></script>
+    <script src="js/angular/angular.js"></script>
+    <script src="js/angular/angular-route.js"></script>
+    <script src="js/angular/angular-resource.js"></script>
+    <script src="js/angular/angular-animate.min.js"></script>
+    <script src="js/bootstrap/ui-bootstrap.min.js"></script>
+
+    <!-- // <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script> -->
+     <!-- <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-animate.js"></script> -->
+     <!-- // <script src="js/angular/angular-ui-router.js"></script> -->
+     <script src="js/bootstrap/ui-route.min.js"></script>
+    <script src="js/angular/angular-animate.js"></script>
+    <script src="js/angular/ui-bootstrap-tpls-0.14.3.min.js"></script>
+    
+
+</head>
+
+  <div class="container" ng-controller = "mainCtrl">
+    <nav class="navbar navbar-inverse" role="navigation">
+
+   <ul class="nav navbar-nav" style="padding: 10px">
+  
+   <li><span uib-dropdown on-toggle="toggled(open)"><a data-toggle="dropdown" href="#" id="simple-dropdown" uib-dropdown-toggle><span style="color: white; margin-top: 25px" class="glyphicon glyphicon-menu-hamburger"></span></a>
+   <ul class="uib-dropdown-menu" aria-labelledby="simple-dropdown">
+      <li class="dropdown-header">
+       <a><span class="glyphicon glyphicon-user"></span> User</a>
+      </li>
+      <li class="divider no-margin">
+      </li>
+      <li class="dropdown-header">
+        <input type="search" id = "searchBox" class="form-control" placeholder="Search" ng-model="search"/>
+      </li>
+      <li class="divider no-margin">
+      </li>
+      <li class="dropdown-header">
+       <a><span class="glyphicon glyphicon-lock"></span>Log In</a>
+      </li>
+      <li class="divider no-margin">
+      </li>
+      <li class="dropdown-header">
+       <a><span class="glyphicon glyphicon-user"></span></span> Sign Up</a>
+      </li>
+      <li class="divider no-margin">
+      </li>
+      <li class="dropdown-header">
+       <a><span class="glyphicon glyphicon-share-alt"></span> How it Works</a>
+      </li>
+      <li class="divider no-margin">
+      </li>
+      <li class="dropdown-header">
+       <a><span class="glyphicon glyphicon-earphone"></span></span> Contact Us</a>
+      </li>
+      <li class="divider no-margin">
+      </li>
+      <li class="dropdown-header">
+       <a><span class="glyphicon glyphicon-info-sign"></span></span> Disclaimer </a>
+      </li>
+      <li><a href="#"><img src="img/logo.png" width="150" height="50"></a></li>
+      
+   </ul>
+   </span>
+   </li>
+   
+   <li><a><span><h4>BUZZ TOWER</h4></span></a></li>
+   
+   </ul>
+
+   <ul class="navbar-text navbar-right">
+   <span uib-dropdown on-toggle="toggled(open)"><a data-toggle="dropdown" href="#" id="simple-dropdown" uib-dropdown-toggle><button style="margin-top: 20px" class="btn btn-success" ng-class="active">NEWS FORUM</button>
+    </a>
+   <ul class="uib-dropdown-menu" aria-labelledby="simple-dropdown" style="margin-top:40px; margin-left: 20px; float: right">
+      <li class="dropdown-header">
+       <a><span class="glyphicon glyphicon-plane"></span> Select Country</a>
+      </li>
+      <li class="divider no-margin">
+      </li>
+      <li class="dropdown-header">
+       <a><span class="glyphicon glyphicon-list-alt"></span></span> Select Catagory</a>
+      </li>
+      <li class="divider no-margin">
+      </li>
+      <li class="dropdown-header">
+       <a><span class="glyphicon glyphicon-book"></span></span> Submit Content </a>
+      </li>
+      <li class="divider no-margin">
+      </li>
+      <li class="dropdown-header">
+       <a><span class="glyphicon glyphicon-bullhorn"></span></span> Submit Advert </a>
+      </li>
+   </ul>
+   </span>
+
+    
+    </ul>
+  
+  </nav>
+
+    <div ng-view></div>
+  </div>
+
+  <!-- scripts -->
+  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js"></script>
+  <script src="./main.js"></script>
+  <script src="./services.js"></script>
+  <script src="./controllers.js"></script>
+  <link rel="stylesheet" href="main.css">
+
+</body>
+</html>
